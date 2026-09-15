@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.python-version
+__pycache__/
+*.py[cod]
+.manus-logs/
