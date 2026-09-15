@@ -1,9 +1,79 @@
+# Node files
 node_modules/
 dist/
+
+# Environment variables / API keys
 .env
 .env.*
 !.env.example
+
+# Python version
 .python-version
+
+# Python cache files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Datasets
+data/
+dataset/
+datasets/
+*.csv
+*.json
+*.xlsx
+
+# Machine Learning models
+models/
+model/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+
+# Logs
+logs/
+*.log
 .manus-logs/
+
+# Cache files
+.cache/
+cache/
+
+# Test coverage
+.coverage
+coverage/
+.pytest_cache/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Build files
+build/
+*.egg-info
+
+# Secret keys/certificates
+*.pem
+*.key
